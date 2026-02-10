@@ -1,6 +1,6 @@
 # ☕ NYC Coffee Shop Sales: A Statistical Analysis
 
-> **Please look at the documentation here:** [View Project Documentation (PDF)](./documentation.pdf)
+> **Please look at the documentation here:** [View Project Documentation (PDF)](./documentation .pdf)
 
 ## 📋 Project Overview
 [cite_start]This project performs an empirical investigation into consumer spending behavior across three New York City coffee shop locations: **Astoria, Hell's Kitchen, and Lower Manhattan**[cite: 12]. [cite_start]Using a transactional dataset from January 2023, the study evaluates whether transaction value, pricing, and product category vary across these specific urban environments[cite: 13].
