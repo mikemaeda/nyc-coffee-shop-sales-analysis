@@ -4,6 +4,7 @@ import argparse
 import io
 import zipfile
 from pathlib import Path
+from typing import Optional, Tuple
 
 import pandas as pd
 from pandas.api.types import is_datetime64_any_dtype, is_numeric_dtype
@@ -115,7 +116,7 @@ def hourly_summary(df: pd.DataFrame) -> pd.DataFrame:
     )
 
 
-def run_statistical_tests(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame | None]:
+def run_statistical_tests(df: pd.DataFrame) -> Tuple[pd.DataFrame, Optional[pd.DataFrame]]:
     groups = [group["revenue"].to_numpy() for _, group in df.groupby("store_location")]
     anova_f, anova_p = stats.f_oneway(*groups)
 
