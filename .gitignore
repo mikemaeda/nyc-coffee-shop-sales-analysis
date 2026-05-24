@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Analysis output
+outputs/
+*.csv
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
